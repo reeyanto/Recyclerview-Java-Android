@@ -3,7 +3,6 @@ package id.pinterkom.films;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 
 import java.util.ArrayList;
@@ -11,7 +10,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView rv_recyclerview;
-    private RecyclerView.Adapter adapter;
     private ArrayList<Films> films;
 
     @Override

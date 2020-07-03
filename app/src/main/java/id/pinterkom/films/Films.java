@@ -16,23 +16,12 @@ public class Films {
         return judul;
     }
 
-    public void setJudul(String judul) {
-        this.judul = judul;
-    }
-
     public String getDeskripsi() {
         return deskripsi;
-    }
-
-    public void setDeskripsi(String deskripsi) {
-        this.deskripsi = deskripsi;
     }
 
     public int getGambar() {
         return gambar;
     }
 
-    public void setGambar(int gambar) {
-        this.gambar = gambar;
-    }
 }
